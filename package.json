@@ -2,10 +2,10 @@
   "name": "virtual-event-platform",
   "version": "1.0.0",
   "description": "Virtual Event Management Platform API",
-  "main": "dist/app.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn src/server.ts",
     "test": "jest --testEnvironment=node --forceExit --detectOpenHandles",
     "test:coverage": "jest --coverage --forceExit"
